@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>广州时代篷房有限公司</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- NAV -->
+  <header id="siteHeader" class="navbar">
+    <div class="container nav-inner">
+      <a class="logo" href="index.html">
+        <img src="images/logo.jpg" alt="广州时代篷房 LOGO">
+      </a>
+
+      <nav class="main-nav" aria-label="主导航">
+        <ul class="nav-links">
+          <li><a class="active" href="index.html">首页</a></li>
+
+          <!-- 案例 -->
+          <li class="dropdown" data-menu="cases">
+            <a href="#" class="dropdown-toggle" aria-expanded="false">案例 ▾</a>
+          </li>
+
+          <!-- 产品 -->
+          <li class="dropdown" data-menu="products">
+            <a href="#" class="dropdown-toggle" aria-expanded="false">产品 ▾</a>
+          </li>
+
+          <li><a href="stock.html">现货库存</a></li>
+          <li><a href="library.html">资料库</a></li>
+          <li><a href="news.html">新闻中心</a></li>
+          <li><a href="contact.html">联系方式</a></li>
+        </ul>
+      </nav>
+
+      <button id="mobileMenuBtn" class="mobile-menu-btn" aria-label="移动菜单">☰</button>
+    </div>
+
+    <!-- 下拉大面板 -->
+    <div class="mega-menu" aria-hidden="true">
+      <!-- 案例菜单 -->
+      <div class="container mega-inner" id="casesMenu">
+        <a class="mega-item" href="cases/sports.html">
+          <img src="images/case-sports.jpg" alt="体育"><span>体育</span>
+        </a>
+        <a class="mega-item" href="cases/exhibition.html">
+          <img src="images/case-event.jpg" alt="活动"><span>活动</span>
+        </a>
+        <a class="mega-item" href="cases/culture.html">
+          <img src="images/case-hotel.jpg" alt="酒店文旅"><span>酒店文旅</span>
+        </a>
+        <a class="mega-item" href="cases/industry.html">
+          <img src="images/case-industry.jpg" alt="工业仓储"><span>工业仓储</span>
+        </a>
+      </div>
+
+      <!-- 产品菜单 -->
+      <div class="container mega-inner" id="productsMenu">
+        <a class="mega-item" href="products/renzi.html">
+          <img src="images/product-renzi.jpg" alt="人字形"><span>人字形篷房</span>
+        </a>
+        <a class="mega-item" href="products/hu.html">
+          <img src="images/product-hu.jpg" alt="弧形"><span>弧形篷房</span>
+        </a>
+        <a class="mega-item" href="products/wanqu.html">
+          <img src="images/product-wanqu.jpg" alt="弯柱"><span>弯柱篷房</span>
+        </a>
+        <a class="mega-item" href="products/zhuiding.html">
+          <img src="images/product-zhuiding.jpg" alt="锥顶"><span>锥顶篷房</span>
+        </a>
+        <a class="mega-item" href="products/shuangceng.html">
+          <img src="images/product-shuangceng.jpg" alt="双层"><span>双层篷房</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="carousel">
+      <button class="caro-arrow left" aria-label="上一张">‹</button>
+      <div class="caro-viewport">
+        <div class="slide active" style="background-image:url('images/banner1.jpg')" aria-hidden="false"></div>
+        <div class="slide" style="background-image:url('images/banner2.jpg')" aria-hidden="true"></div>
+        <div class="slide" style="background-image:url('images/banner3.jpg')" aria-hidden="true"></div>
+      </div>
+      <button class="caro-arrow right" aria-label="下一张">›</button>
+      <div class="caro-dots" role="tablist"></div>
+    </div>
+
+    <div class="hero-overlay">
+      <div class="hero-inner container">
+        <h1 class="hero-title">时代篷房</h1>
+        <p class="hero-sub">撑起每个重要时刻 — 专业铝合金篷房设计 · 制造 · 方案交付</p>
+        <div class="hero-ctas">
+          <a class="btn btn-light" href="cases/index.html">浏览案例</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CASES -->
+  <section class="cases container section">
+    <h2 class="section-title">案例展示</h2>
+    <div class="cases-grid">
+      <article class="case-card" style="background-image:url('images/case-sports.jpg');">
+        <div class="case-overlay">
+          <h3>体育赛事</h3>
+          <p>顶级赛事篷房解决方案，场馆覆盖与临时设施快速交付。</p>
+          <a class="btn btn-light" href="cases/sports.html">了解更多</a>
+        </div>
+      </article>
+      <article class="case-card" style="background-image:url('images/case-event.jpg');">
+        <div class="case-overlay">
+          <h3>展会 / 活动</h3>
+          <p>展览、演唱会与庆典的临时场馆搭建，提升品牌影响力。</p>
+          <a class="btn btn-light" href="cases/exhibition.html">了解更多</a>
+        </div>
+      </article>
+      <article class="case-card" style="background-image:url('images/case-hotel.jpg');">
+        <div class="case-overlay">
+          <h3>酒店 · 文旅</h3>
+          <p>与文旅产业结合，打造特色住宿与体验空间。</p>
+          <a class="btn btn-light" href="cases/culture.html">了解更多</a>
+        </div>
+      </article>
+      <article class="case-card" style="background-image:url('images/case-industry.jpg');">
+        <div class="case-overlay">
+          <h3>工业仓储</h3>
+          <p>快速搭建仓储与物流空间，满足企业扩展需求。</p>
+          <a class="btn btn-light" href="cases/industry.html">了解更多</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section class="products container section">
+    <h2 class="section-title">产品展示</h2>
+    <div class="products-grid">
+      <article class="product-card">
+        <img src="images/product-renzi.jpg" alt="人字形篷房">
+        <div class="product-info">
+          <h3>人字形篷房</h3>
+          <p class="muted">稳固经典，灵活跨度，适合展览与大型活动。</p>
+          <a class="btn btn-primary" href="products/renzi.html">了解更多</a>
+        </div>
+      </article>
+      <article class="product-card">
+        <img src="images/product-hu.jpg" alt="弧形篷房">
+        <div class="product-info">
+          <h3>弧形篷房</h3>
+          <p class="muted">流线外型，常用于婚礼与高端活动。</p>
+          <a class="btn btn-primary" href="products/hu.html">了解更多</a>
+        </div>
+      </article>
+      <article class="product-card">
+        <img src="images/product-wanqu.jpg" alt="弯柱篷房">
+        <div class="product-info">
+          <h3>弯柱篷房</h3>
+          <p class="muted">独特造型，满足创意与特色展览需求。</p>
+          <a class="btn btn-primary" href="products/wanqu.html">了解更多</a>
+        </div>
+      </article>
+      <article class="product-card">
+        <img src="images/product-zhuiding.jpg" alt="锥顶篷房">
+        <div class="product-info">
+          <h3>锥顶篷房</h3>
+          <p class="muted">别致造型，适合展销会与品牌推广。</p>
+          <a class="btn btn-primary" href="products/zhuiding.html">了解更多</a>
+        </div>
+      </article>
+      <article class="product-card">
+        <img src="images/product-shuangceng.jpg" alt="双层篷房">
+        <div class="product-info">
+          <h3>双层篷房</h3>
+          <p class="muted">多层空间，提升档次与体验。</p>
+          <a class="btn btn-primary" href="products/shuangceng.html">了解更多</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+<section class="about container section">
+  <h2 class="section-title">关于我们</h2>
+  <div class="about-wrapper">
+    <!-- 左边视频 -->
+    <div class="about-video">
+      <video src="videos/factory.mp4" autoplay muted loop playsinline poster="images/factory-cover.jpg"></video>
+    </div>
+
+    <!-- 右边内容 -->
+    <div class="about-right">
+      <!-- 指标卡片 -->
+      <div class="about-stats">
+        <div class="stat-card">
+          <strong>10万平</strong>
+          <span>现代化厂房</span>
+        </div>
+        <div class="stat-card">
+          <strong>25年+</strong>
+          <span>生产经验</span>
+        </div>
+        <div class="stat-card">
+          <strong>60人+</strong>
+          <span>研发团队</span>
+        </div>
+        <div class="stat-card">
+          <strong>600人+</strong>
+          <span>专业人才</span>
+        </div>
+      </div>
+
+      <!-- 文案介绍 -->
+      <div class="about-text">
+        <p>广州时代篷房有限公司隶属速派建工集团，专注于户外大型铝合金篷房的专业设计、生产制造与整体解决方案。</p>
+        <p>公司拥有10万平米现代化厂房，配备先进设备和专业人才，构筑起强大的规模化生产能力，并高效辐射全球市场。</p>
+        <a href="about.html" class="btn btn-primary">查看更多</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-info">
+        <img src="images/logo.jpg" alt="LOGO" class="footer-logo">
+        <p>广州时代篷房有限公司 (Guangzhou Times Tent Co., Ltd.)<br>地址：广州市荔湾区珠江钢琴创梦园<br>电话：+86 20 6265 1300<br>邮箱：Winnk@timestent.com</p>
+      </div>
+      <div class="footer-form">
+        <h3>快捷联系我们</h3>
+        <form id="contactForm">
+          <input type="text" placeholder="您的姓名" name="name" required>
+          <input type="email" placeholder="您的邮箱" name="email" required>
+          <textarea placeholder="留言内容" name="message"></textarea>
+          <button class="btn btn-primary" type="submit">提交</button>
+        </form>
+      </div>
+    </div>
+    <p class="footer-bottom">© 2025 广州时代篷房有限公司 版权所有</p>
+  </footer>
+
+  <!-- 右侧联系方式气泡 -->
+  <div class="contact-bubbles">
+    <div class="bubble" data-text="+86 20 6265 1300">📞</div>
+    <div class="bubble" data-text="Winnk@timestent.com">✉️</div>
+    <div class="bubble" data-text="广州市荔湾区珠江钢琴创梦园">📍</div>
+  </div>
+
+  <!-- 回到顶部按钮 -->
+  <button id="backToTop" aria-label="回到顶部">↑</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
